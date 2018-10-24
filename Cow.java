@@ -5,6 +5,10 @@ class Cow implements Animal {
     	mySpecies = species;
     	mySound = sound;
     }
+    public Cow() {         
+        mySpecies = "unknown";         
+        mySound = "unknown";     
+     }   
     public String getType(){
     	return mySpecies;
     }
